@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DJ business card</title>
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo active">DJ Your Name</h2>
+        <div class="toggle"></div>
+      </header>
+      <video src="production ID_5118406.mp4" muted loop autoplay></video>
+      <div class="overlay"></div>
+      <div class="text">
+        <h2>Your best Experience</h2>
+        <h3>I show you</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem numquam sequi expedita voluptas necessitatibus amet
+          voluptatum perferendis? Accusantium molestiae deserunt explicabo optio
+          veritatis possimus eos perferendis quia repudiandae laborum? Totam?
+        </p>
+        <a href="#">Mixing!</a>
+      </div>
+      <ul class="social">
+        <li>
+          <a href="#"
+            ><img src="facebook.png" alt="facebook" width="100px"
+          /></a>
+        </li>
+        <li>
+          <a href="#"><img src="twitter.png" alt="twitter" width="100px" /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="instagram.png" alt="instagram" width="100px"
+          /></a>
+        </li>
+        <li>
+          <a href="#"><img src="youtube.png" alt="youtube" width="100px" /></a>
+        </li>
+      </ul>
+    </section>
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Party</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
